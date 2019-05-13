@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 //import React from "react";
+//import PropTypes from "prop-types";
 import "./App.css";
 
 // class App extends Component {
@@ -38,13 +39,14 @@ class App extends Component {
     );
   }
 }
-const isTypeString = React.PropTypes.string.isRequired,
-  isTypeNumber = React.PropTypes.number.isRequired;
-App.propTypes = {
-  name: isTypeString,
-  age: isTypeNumber
-};
-App.defaultProps = {
-  age: 2
-};
+//Checking object datatype
+// const isTypeString = React.PropTypes.string.isRequired,
+//   isTypeNumber = React.PropTypes.number.isRequired;
+// App.propTypes = {
+//   name: isTypeString,
+//   age: isTypeNumber
+// };
+// App.defaultProps = {
+//   age: 2
+// };
 export default App;
